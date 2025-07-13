@@ -1,8 +1,8 @@
 /* === Custom R Package Icons === */
 
 .custom-icon {
-  width: 2em;                /* Match devicon size */
-  height: 2em;
+  width: 1.75em;                /* Match devicon size */
+  height: 1.75em;
   vertical-align: middle;   /* Align with text or icons */
   margin: 0 6px;             /* Consistent spacing */
   display: inline-block;
