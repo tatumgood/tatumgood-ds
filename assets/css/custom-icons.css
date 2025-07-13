@@ -1,0 +1,23 @@
+/* === Custom R Package Icons === */
+
+.custom-icon {
+  width: 2em;                /* Match devicon size */
+  height: 2em;
+  vertical-align: middle;   /* Align with text or icons */
+  margin: 0 6px;             /* Consistent spacing */
+  display: inline-block;
+  object-fit: contain;      /* Keeps proportions inside the box */
+  transition: transform 0.2s ease;
+  filter: grayscale(100%) contrast(120%); /* Optional: give a uniform tone */
+}
+
+.custom-icon:hover {
+  transform: scale(1.1);     /* Optional hover effect */
+  filter: grayscale(0%) contrast(100%); /* Optional: color on hover */
+}
+
+/* Optional: dark background adaptation */
+body.dark-mode .custom-icon {
+  filter: brightness(1.2) contrast(110%);
+}
+
