@@ -1,20 +1,16 @@
 /* === Custom R Package Icons === */
 
 .custom-icon {
-  width: 1em;                 /* Match font-size unit */
+  width: 1em;               /* Match font-size unit */
   height: 1em;
-  display: inline-block;     /* Let it sit inline like a font icon */
-  vertical-align: -0.125em;  /* Align visually with text (adjust as needed) */
+  display: inline-block;    /* Let it sit inline like a font icon */
+  vertical-align: -0.125em;   /* Align visually with text (adjust as needed) */
   line-height: 1;
   object-fit: contain;
   margin: 0 0.3em;
-  filter: grayscale(100%) contrast(120%);
-  transition: transform 0.2s ease;
-}
-
-.custom-icon:hover {
-  transform: scale(1.1);
-  filter: grayscale(0%) contrast(100%);
+  /* Remove grayscale and transitions */
+  filter: none;
+  transition: none;
 }
 
 
