@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Tatum Good" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Aditya Singh, Aditya Vikram Singh, Aditya Vikram Singh DPS,
+        Aditya Vikram Singh DPSRKP, Aditya Vikram Singh UMass, Aditya Vikram
+        Singh UMass Amherst, Aditya Vikram Singh New Delhi, Aditya Vikram
+        Singh Amherst, Aditya Vikram Singh ISSDC, Aditya Vikram Singh NASA,
+        Aditya Vikram Singh, Aditya Vikram Singh Website, Aditya V Singh"
+    />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Tatum Good Projects</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/link.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="./assets/css/custom-icons.css" />
+          
+  </head>
+
+  <body>
+    <div id="particles-js" style="background-color:#f0b4ee;">
+      <div class="header">
+        <h1>
+          <span class="site-title">PROJECT2</span>
+          <span class="site-description">Data Scientist • Analyst • From Patterns to Clarity</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/avs1508/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/AVS1508">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="https://www.adityavsingh.com/resume.html">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:tatum.good123@gmail.com" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#overview" data-scroll>Description</a>
+          <a class="link" href="#skills" data-scroll>Tools Used</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="overview">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>Overview</h1>
+        <p>
+          During the COVID-19 pandemic, visualizations became one of the most important tools for understanding the world. 
+          From dashboards tracking cases to animated charts in the New York Times, these graphics became part of our daily lives—sometimes shaping behavior as much as the underlying data itself. 
+          This project explores how visual storytelling evolved under crisis conditions, and how that evolution impacted how we viewed the pandemic.
+          We analyze 173 data-driven articles from the “What’s Going On in This Graph?” series published between 2015 and 2024. 
+          Our goal was to explore how the urgency, complexity, and volume of pandemic data reshaped visual design practices—both in terms of graphic form (e.g., interactivity, color use, complexity) and thematic focus (e.g., health and risk communication). 
+          We also wished to explore how these changes under pressure may have affected how we viewed the pandemic. By combining historical analysis, literature review, and our own empirical study, we provide a timeline of this transformation and reflect on its broader implications.
+        </p>
+      </div>
+      </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <!-- User Specifics -->
+      <div class="user">
+       <!--  <h1>Skills</h1> -->
+        <!-- Technology Stack #1: Python -->
+        <div class="tech">
+          <h2>Skills and Tools Used</h2>
+          <i class="devicon-r-plain colored"></i>
+          <img src="./assets/img/jpg/Tidyverse_hex_logo.png" alt="Tidyverse" class="custom-icon" />
+          <i class="devicon-rstudio-plain colored"></i>
+          <img src="./assets/img/jpg/dplyr.png" alt="dplyr" class="custom-icon" />
+          <i class="devicon-plotly-plain colored"></i>
+          <img src="./assets/img/jpg/tidyr.png" alt="tidyr" class="custom-icon" />
+          <img src="./assets/img/jpg/ggplot2.png" alt="ggplot2" class="custom-icon" />
+          <img src="./assets/img/jpg/shiny.png" alt="shiny" class="custom-icon" />
+          
+          
+          
+          <p>A comprehensive toolkit for data exploration, visualization, and reporting in R. We also focused on qualitative coding of design principles and topics. 
+            Namely, data visualization theory and keeping track of factors such as Gestalt principles and perception tasks to see trends arise. 
+            It was also beneficial to engage in a literature review synthesis and academic writing. </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Data Process</h1>
+      </div>
+
+      <!-- User Project #1: New York Times -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/Personal-Resume-Website.webp" alt="Personal Website" />
+            <img alt="Personal Website" src="./assets/img/jpg/Personal-Resume-Website.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Stat Nuggets</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+              style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+            />
+            &nbsp;
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/bootstrap.svg"
+              style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)"
+            />
+            &nbsp;
+            <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          </div>
+          <p style="text-align: justify">
+            We began by collecting all available “What’s Going On in This Graph?” articles published by the New York Times Learning Network in collaboration with the American Statistical Association. 
+            These weekly publications were designed to promote visual literacy in classrooms, but they also provide a consistent, publicly accessible record of data visualizations in media from 2015–2024.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/k-leonard/Kitada-Smalley_Good_Leonard_Research">Check it out!</a>
+        </div>
+      </div>
+
+      <!-- User Project #2:  -->
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/Perpetual-Crusades.webp" alt="Perpetual Crusades" />
+            <img alt="Perpetual Crusades" src="./assets/img/jpg/Perpetual-Crusades.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Data Collection and Cleaning</h3>
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+          />
+          &nbsp;
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
+            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
+          />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          <p style="text-align: justify">
+            After compiling 173 articles, we manually coded metadata for each graphic: type (bar, line, scatter, etc.), topic (e.g., health, economy, sports), presence of interactivity, design complexity, and use of Gestalt principles. 
+            Each graphic was also analyzed for its interpretive demands—such as number of perception tasks required and whether uncertainty (e.g., confidence intervals) was visually communicated.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/AVS1508/Summer-2020-Project"
+            >Check it out!</a
+          >
+        </div>
+      </div>
+
+      <!-- User Project #3: COVID-19 Tracker App -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/COVID19-Tracker-App.webp" alt="COVID-19 Tracker App" />
+            <img alt="COVID-19 Tracker App" src="./assets/img/jpg/COVID19-Tracker-App.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Data Analysis and Coding</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+              style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
+            />
+          </div>
+          <p style="text-align: justify">
+            I created a web application for tracking the spread of COVID-19. Using Johns Hopkins University Center For
+            Systems Science and Engineering API, the website processes the COVID-19 data to create statistical
+            projections through graphs and charts.
+          </p>
+          <a class="project-link" target="_blank" href="https://www.adityavsingh.com/covid19-tracker-app">
+            Check it out!
+          </a>
+        </div>
+      </div>
+
+      <!-- Use Project #4: Capstone -->
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="./assets/img/webp/Valuto-Account-Management.webp"
+              alt="Valuto: Account Management System"
+            />
+            <img alt="Valuto: Account Management System" src="./assets/img/jpg/Valuto-Account-Management.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>results</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg"
+              style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)"
+            />
+          </div>
+          <p style="text-align: justify">
+            I developed a CLI system for accounting management and financial statement maintenance. The purpose of the
+            system is to maintain a record of the funds received, used, disseminated and donated by an organization.
+            Details of transactions and maintenance of a budget and tallying of current balance/inventory in cash/kind
+            is incorporated in this system.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/AVS1508/Valuto-Account-Management-System">
+            Check it out!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Tatum Good, 2025</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
