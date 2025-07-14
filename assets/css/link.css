@@ -4825,15 +4825,14 @@ a img {
     background: -webkit-linear-gradient(to right, #a847a3, #e384de);
     background: linear-gradient(to right, #a847a3, #e384de);
     display: flex;
-    align-items: center; /* vertically center header if not using absolute */
-    justify-content: center;
+    vertical-align: bottom;
     width: 100%;
-    min-height: 40vh;   /* Shrinks from full screen to top 40% */
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
 }
+
 
 
 #particles-js .particles-js-canvas-el {
@@ -4845,12 +4844,16 @@ a img {
     z-index: 1;
     text-align: center;
     color: #fff;
+    position: absolute;
     font-family: 'Rubik', sans-serif;
     width: 80%;
+    top: 50%;
+    left: 50%;
     margin: 0 auto;
-    padding: 20px 0;
-    position: relative; /* no longer absolutely positioned */
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
+
 
 
 .header .site-title {
