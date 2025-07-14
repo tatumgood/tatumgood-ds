@@ -3347,27 +3347,27 @@ ul {
 a img {
     border: 0
 }
-
 #particles-js {
     background: #e384de;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #a847a3, #e384de);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #a847a3, #e384de);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
-    vertical-align: bottom;
+    align-items: center; /* vertically center header */
+    justify-content: center;
     width: 100%;
-    min-height: 100vh;
+    min-height: 40vh; /* changed from 100vh */
+    max-height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
 }
 
 #particles-js .particles-js-canvas-el {
     width: 100% !important;
-    height: 100vh !important
+    height: 100% !important; /* match parent div height */
 }
 
 .header {
@@ -3377,9 +3377,9 @@ a img {
     position: absolute;
     font-family: 'Rubik', sans-serif;
     width: 90%;
-    top: 30%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -50%);
     padding: 20px 0;
 }
 
@@ -3426,6 +3426,7 @@ a img {
         font-size: 18px;
     }
 }
+
 
 .header-icons {
     display: flex;
