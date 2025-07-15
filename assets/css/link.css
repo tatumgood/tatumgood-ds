@@ -4821,9 +4821,9 @@ a img {
 }
 
 #particles-js {
-  background: #e384de;
-  background: -webkit-linear-gradient(to right, #a847a3, #e384de);
-  background: linear-gradient(to right, #a847a3, #e384de);
+  background: #77a8f2;
+  background: -webkit-linear-gradient(to right, #77a8f2, #77a8f2);
+  background: linear-gradient(to right, #77a8f2, #77a8f2);
   
   display: flex;
   align-items: center;
@@ -5084,9 +5084,9 @@ a img {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: #e384de;
+    color: #77a8f2;
     background-color: transparent;
-    border: 1px solid #e384de;
+    border: 1px solid #77a8f2;
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -5104,11 +5104,11 @@ a img {
 }
 
 .footer {
-    background: #e384de;
+    background: #77a8f2;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #e384de);
+    background: -webkit-linear-gradient(to right, #77a8f2, #77a8f2);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #e384de);
+    background: linear-gradient(to right, #77a8f2, #77a8f2);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 100px;
