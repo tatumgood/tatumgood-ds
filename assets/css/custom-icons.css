@@ -7,7 +7,7 @@
   vertical-align: -0.125em;   /* Align visually with text (adjust as needed) */
   line-height: 1;
   object-fit: contain;
-  margin: 0 0.3em;
+  margin: 0 0.3em; /* lol */
   /* Remove grayscale and transitions */
   filter: none;
   transition: none;
